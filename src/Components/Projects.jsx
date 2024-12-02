@@ -11,12 +11,12 @@ export default function Projects() {
         <section className="project-container">
         <p className="projects-p">Here are some of my projects:</p>
         <ul className="projects-list">
-          <li>Project 1</li>
-          <li>Project 2</li>
-          <li>Project 3</li>
-          <li>Project 4</li>
-          <li>Project 5</li>
-          <li>Project 6</li>
+          <li className="project-list-li">Project 1</li>
+          <li className="project-list-li">Project 2</li>
+          <li className="project-list-li">Project 3</li>
+          <li className="project-list-li">Project 4</li>
+          <li className="project-list-li">Project 5</li>
+          <li className="project-list-li">Project 6</li>
         </ul>
         </section>
       </div>

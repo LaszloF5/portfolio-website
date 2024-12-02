@@ -7,6 +7,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .first-container {
   height: 100vh;
   background-color: rgb(29, 29, 32);
@@ -23,6 +27,15 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+}
+
+.top-arrow {
+  position: fixed;
+  bottom: calc(5vh + 20px);
+  right: calc(5vw + 20px);
+  width: 48px;
+  cursor: pointer;
+  z-index: 10;
 }
 
 .circle {
@@ -126,3 +139,17 @@
   width: 100%;
 }
 
+
+/*Scroll display header*/
+
+.otherView {
+  background-color: #F39C12;
+  position: fixed;
+  top: 5vh;
+  left: 5vw;
+  /* left: 0; */
+  width: 89vw;
+  display: flex;
+  justify-content: space-around;
+  z-index: 20;
+}

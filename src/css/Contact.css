@@ -1,3 +1,12 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+
 .fourth-container {
     height: 100vh;
     background-color: rgb(29, 29, 32);
@@ -45,4 +54,34 @@
     right: 0;
     border-top: 0;
     border-left: 0;
+  }
+
+  .contact-h2 {
+    margin: 50px;
+  }
+
+  .contact-container {
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .contact-p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+  }
+
+  .contact-icon {
+    width: 36px;
+    padding-right: 10px;
+  }
+
+  .github-a {
+    color: whitesmoke;
+    display: flex;
+    margin: 5px;
   }
