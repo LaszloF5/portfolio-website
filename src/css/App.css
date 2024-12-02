@@ -1,0 +1,128 @@
+.App {
+  text-align: center;
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.first-container {
+  height: 100vh;
+  background-color: rgb(29, 29, 32);
+  color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content1 {
+  position: relative;
+  width: 90%;
+  height: 90%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.circle {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  border: 10px solid transparent;
+  border-image: conic-gradient(
+      #f5d76e 0deg,
+      #f39c12 90deg,
+      #e67e22 180deg,
+      #d35400 270deg,
+      #f5d76e 360deg
+    )
+    1;
+  border-radius: 100%;
+  background-color: transparent;
+}
+
+.content1-top-left {
+  top: 0;
+  left: 0;
+  border-bottom: 0;
+  border-right: 0;
+}
+
+.content1-bottom-right {
+  bottom: 0;
+  right: 0;
+  border-top: 0;
+  border-left: 0;
+}
+
+/* .data,
+.header {
+  border: 2px solid white;
+} */
+
+.h1 {
+  font-size: 90px;
+  font-weight: 100;
+  text-align: left;
+  padding-bottom: 20px;
+}
+
+.data {
+  width: 600px;
+}
+.data p {
+  position: relative;
+  padding-left: 10px;
+}
+
+.data p::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 2px; /* A bal oldali "border" szélessége */
+  height: 100%;
+  background: linear-gradient(
+    to bottom right,
+    #f5d76e,
+    #f39c12,
+    #e67e22,
+    #d35400,
+    #f5d76e
+  );
+}
+
+.nav-ul-li {
+  position: relative;
+  list-style: none;
+  padding: 5px 0;
+}
+
+.nav-ul-li a {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+.nav-ul-li a::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: linear-gradient(
+    to bottom right,
+    #f5d76e,
+    #f39c12,
+    #e67e22,
+    #d35400,
+    #f5d76e
+  );
+  transition: width 0.2s ease-in;
+}
+
+.nav-ul-li a:hover::before {
+  width: 100%;
+}
+

@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.second-container {
+  height: 100vh;
+  background-color: rgb(29, 29, 32);
+  color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content2 {
+    position: relative;
+    width: 90%;
+    height: 90%;
+}
+
+.circle2 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border: 10px solid transparent;
+    border-image: conic-gradient(
+        #f5d76e 0deg,
+        #f39c12 90deg,
+        #e67e22 180deg,
+        #d35400 270deg,
+        #f5d76e 360deg
+      )
+      1;
+    border-radius: 100%;
+    background-color: transparent;
+  }
+  
+  .content2-top-left {
+    top: 0;
+    left: 0;
+    border-bottom: 0;
+    border-right: 0;
+  }
+  
+  .content2-bottom-right {
+    bottom: 0;
+    right: 0;
+    border-top: 0;
+    border-left: 0;
+  }
+
+
+.about-h2 {
+    margin: 50px;
+}
+
+.about-3 {
+    margin: 25px 0;
+}
+
+.skill-container {
+    position: absolute;
+    top: 25%;
+    left: 10%;
+}
+
+.skill-icon {
+    width: 72px;
+    padding: 10px;
+}
+
+.img-container {
+    display: inline-block;
+}
+
+
+.info-container {
+    position: absolute;
+    bottom: 25%;
+    right: 10%;
+}
+
+.info-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background: #fff;
+    border-radius: 8px;
+  }
+  
+  .info-table td {
+    padding: 10px 15px;
+    text-align: left;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .info-table td:first-child {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .info-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .info-table tr:nth-child(odd) {
+    background-color: #ffffff;
+  }
+  
+  .info-table {
+    border: 2px solid transparent;
+    border-image: linear-gradient(
+      0deg,
+      #f5d76e 0deg,
+      #f39c12 90deg,
+      #e67e22 180deg,
+      #d35400 270deg,
+      #f5d76e 360deg
+    ) 1;
+  }
+  
