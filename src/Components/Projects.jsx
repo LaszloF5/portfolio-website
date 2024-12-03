@@ -15,7 +15,7 @@ export default function Projects() {
               <span className='project-span'>Project 1</span>
               <img
                 className="project-img"
-                src={process.env.PUBLIC_URL + "./project1.png"}
+                src={`${process.env.PUBLIC_URL}/project1.png`}
                 alt="Cleaning service web application"
               />
               <a
@@ -27,7 +27,7 @@ export default function Projects() {
                 Code in Github:
                 <img
                   className="right-arrow"
-                  src={process.env.PUBLIC_URL + "./right-arrow.png"}
+                  src={`${process.env.PUBLIC_URL}/right-arrow.png`}
                   alt="right arrow"
                 />
               </a>
@@ -36,7 +36,7 @@ export default function Projects() {
               <span className='project-span'>Project 2</span>
               <img
                 className="project-img"
-                src={process.env.PUBLIC_URL + "./project2.png"}
+                src={`${process.env.PUBLIC_URL}/project2.png`}
                 alt="Weather forecast web application"
               />
               <a
@@ -48,7 +48,7 @@ export default function Projects() {
                 Code in Github:
                 <img
                   className="right-arrow"
-                  src={process.env.PUBLIC_URL + "./right-arrow.png"}
+                  src={`${process.env.PUBLIC_URL}/right-arrow.png`}
                   alt="right arrow"
                 />
               </a>
@@ -61,7 +61,7 @@ export default function Projects() {
                 Visit this site:
                 <img
                   className="right-arrow"
-                  src={process.env.PUBLIC_URL + "./right-arrow.png"}
+                  src={`${process.env.PUBLIC_URL}/right-arrow.png`}
                   alt="right arrow"
                 />
               </a>
@@ -70,7 +70,7 @@ export default function Projects() {
               <span className='project-span'>Project 3</span>
               <img
                 className="project-img"
-                src={process.env.PUBLIC_URL + "./project3.png"}
+                src={`${process.env.PUBLIC_URL}/project3.png`}
                 alt="Advent calendar web application"
               />
               <a
@@ -82,7 +82,7 @@ export default function Projects() {
                 Code in Github:
                 <img
                   className="right-arrow"
-                  src={process.env.PUBLIC_URL + "./right-arrow.png"}
+                  src={`${process.env.PUBLIC_URL}/right-arrow.png`}
                   alt="right arrow"
                 />
               </a>
@@ -95,7 +95,7 @@ export default function Projects() {
                 Visit this site:
                 <img
                   className="right-arrow"
-                  src={process.env.PUBLIC_URL + "./right-arrow.png"}
+                  src={`${process.env.PUBLIC_URL}/right-arrow.png`}
                   alt="right arrow"
                 />
               </a>
@@ -104,7 +104,7 @@ export default function Projects() {
               <span className='project-span'>Project 4</span>
               <img
                 className="project-img"
-                src={process.env.PUBLIC_URL + "./project4.png"}
+                src={`${process.env.PUBLIC_URL}/project4.png`}
                 alt="Kitchen system web application"
               />
               <a
@@ -116,7 +116,7 @@ export default function Projects() {
                 Code in Github:
                 <img
                   className="right-arrow"
-                  src={process.env.PUBLIC_URL + "./right-arrow.png"}
+                  src={`${process.env.PUBLIC_URL}/right-arrow.png`}
                   alt="right arrow"
                 />
               </a>
