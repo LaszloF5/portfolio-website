@@ -37,7 +37,6 @@ export default function App() {
     return () => {
       window.removeEventListener("resize", handleWidth);
     };
-
   }, []);
 
   const scrollToTop = () => {
@@ -79,19 +78,23 @@ export default function App() {
           <div className="circle content1-bottom-right"></div>
           <section className="data">
             <h1 className="h1">Welcome!</h1>
-            <p className='p'>
-              My name is Laszlo Fazekas. I started
-              learning front-end development a year ago. Since then, I've
-              been working passionately on creating new things, although I'm not
-              yet working professionally in the field. I've always enjoyed
-              developing and taking on the challenges that come with web
-              development. My goal is to continuously improve and create
-              projects that provide real value to users.
+            <p className="p">
+              My name is Laszlo Fazekas. I started learning front-end
+              development a year ago. Since then, I've been working passionately
+              on creating new things, although I'm not working yet
+              professionally in the field. I've always enjoyed developing and
+              taking on the challenges that come with web development. My goal
+              is to continuously improve and create projects that provide real
+              value to users.
             </p>
           </section>
           <header className="App-header">
             <nav className="nav">
-              <ul className={`nav-ul ${addClass ? "otherView" : ""} ${isSmall ? 'otherView' : ''}`}>
+              <ul
+                className={`nav-ul ${addClass ? "otherView" : ""} ${
+                  isSmall ? "otherView" : ""
+                }`}
+              >
                 <li className="nav-ul-li">
                   <a href="#home">Home</a>
                 </li>
