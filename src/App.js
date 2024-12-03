@@ -27,7 +27,7 @@ export default function App() {
 
   useEffect(() => {
     const handleWidth = () => {
-      if (window.innerWidth <= 992) {
+      if (window.innerWidth <= 1200) {
         setIsSmall(true);
       } else {
         setIsSmall(false);
