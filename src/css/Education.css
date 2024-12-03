@@ -57,11 +57,11 @@ html {
 }
 
 .education-h2 {
-  margin: 50px;
+  margin-top: 50px;
 }
 
 .education-container {
-  height: 600px;
+  height: calc(100% - 90px);
   width: 90%;
   margin: 0 auto;
   display: flex;
@@ -85,6 +85,7 @@ html {
     #f5d76e 360deg
   );
   border-image-slice: 1;
+  margin-right: 20px;
 }
 
 .elementary-s {
@@ -103,4 +104,28 @@ html {
 
 .education-p {
   width: 50%;
+}
+
+@media screen and (max-width: 1400px) {
+  .uni,
+  .high-s,
+  .elementary-s{
+    height: 150px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .elementary-s {
+    width: 95%;
+  }
+  
+  .high-s {
+    width: 80%;
+    border-bottom: 0;
+  }
+  
+  .uni {
+    width: 65%;
+    border-bottom: 0;
+  }
 }

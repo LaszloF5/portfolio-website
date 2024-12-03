@@ -85,3 +85,8 @@
     display: flex;
     margin: 5px;
   }
+
+  .footer {
+    position: absolute;
+    bottom: 10px;
+  }

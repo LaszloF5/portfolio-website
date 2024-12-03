@@ -139,11 +139,10 @@ html {
   width: 100%;
 }
 
-
 /*Scroll display header*/
 
 .otherView {
-  background-color: #F39C12;
+  background-color: #f39c12;
   position: fixed;
   top: 5vh;
   left: 5vw;
@@ -152,4 +151,45 @@ html {
   display: flex;
   justify-content: space-around;
   z-index: 20;
+}
+
+@media screen and (max-width: 1600px) {
+  .otherView {
+    width: 88.5vw;
+  }
+}
+
+/* @media screen and (max-width: 1079px) {
+  .otherView {
+    width: 87.6vw;
+  }
+}
+
+@media screen and (max-width: 677px) {
+  .otherView {
+    width: 86.3vw;
+  }
+}
+
+
+@media screen and (max-width: 447px) {
+  .otherView {
+    width: 85.3vw;
+    }
+    }
+    
+    @media screen and (max-width: 375px) {
+      .otherView {
+        width: 84.5vw;
+        }
+        } */
+
+@media screen and (max-width: 450px) {
+  .h1 {
+    display: inline-block;
+    font-size: 48px;
+  }
+  .p {
+    padding: 0 5px;
+  }
 }

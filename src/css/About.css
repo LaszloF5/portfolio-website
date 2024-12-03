@@ -124,3 +124,16 @@ html {
     ) 1;
   }
   
+  @media screen and (max-width: 450px) {
+    .info-table td {
+      padding: 5px;
+    }
+
+    .info-container {
+      right: 0;
+    }
+
+    .skill-container {
+      top: 20%;
+    }
+  }

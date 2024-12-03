@@ -14,7 +14,7 @@ export default function Education() {
                 <p className='education-p'>2015-2019</p>
             </div>
             <div className='high-s'>
-                <p className='education-p'>Szentanna Sámuel High School, Karcag</p>
+                <p className='education-p'>Szentannai Sámuel High School, Karcag</p>
                 <p className='education-p'>2011-2015</p>
             </div>
             <div className='elementary-s'>

@@ -63,6 +63,9 @@ html {
 .project-container {
   height: 90%;
   /* background-color: rgb(186, 110, 110); */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 
 .projects-p {
@@ -70,18 +73,113 @@ html {
 }
 
 .projects-list {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   gap: 10px;
+  justify-items: center;
+  align-items: center;
+  padding-inline-start: 0;
+  /* max-height: calc(90% - 75px);
+  overflow-y: scroll; */
 }
 
 .project-list-li {
   list-style-type: none;
-  padding: 20px;
+  padding: 0 20px;
   background-color: rgba(255, 255, 255, 0.8);
   border-radius: 10px;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-  width: 200px;
-  height: 300px;
+  width: 20vw;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.project-span {
+  margin-bottom: 5px;
+  color: black;
+}
+
+.visiteProject {
+  position: relative;
+  width: 140px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  margin: 0 auto;
+}
+
+.visiteProject::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: linear-gradient(
+    to bottom right,
+    #f5d76e,
+    #f39c12,
+    #e67e22,
+    #d35400,
+    #f5d76e
+  );
+  transition: width 0.2s ease-in;
+}
+
+.visiteProject:hover::after {
+  width: 100%;
+}
+
+.project-img {
+  width: 85%;
+  height: 60%;
+  margin: 0 auto;
+}
+
+.right-arrow {
+  width: 24px;
+  margin-left: 5px;
+}
+
+@media screen and (max-width: 1196px) {
+  .project-list-li {
+    padding: 0;
+  }
+
+  .projects-list {
+    gap: 10px 0;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .project-list-li {
+    width: 25vw;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .project-list-li {
+    width: 30vw;
+  }
+}
+
+@media screen and (max-width: 776px) {
+  .project-list-li {
+    width: 30vw;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .project-list-li {
+    width: 35vw;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .project-list-li {
+    width: 38vw;
+  }
 }

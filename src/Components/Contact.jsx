@@ -15,18 +15,30 @@ export default function Contact() {
               <img
                 className="contact-icon"
                 src={process.env.PUBLIC_URL + "/mail-icon.png"}
-                alt='mail icon'/>
+                alt="mail icon"
+              />
               fazekaslaszlo31@gmail.com
             </p>
           </section>
           <section className="contact-info">
             <h3>Github:</h3>
-                <a className="github-a" href="https://github.com/LaszloF5" target="_blank"><img
+            <a
+              className="github-a"
+              href="https://github.com/LaszloF5"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
                 className="contact-icon"
                 src={process.env.PUBLIC_URL + "/github-icon.png"}
                 alt="github icon"
-              />https://github.com/LaszloF5</a>
+              />
+              https://github.com/LaszloF5
+            </a>
           </section>
+          <footer className="footer">
+            <span>© 2024 Laszlo Fazekas All rights reserved.</span>
+          </footer>
         </div>
       </div>
     </div>
