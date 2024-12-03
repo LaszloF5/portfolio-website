@@ -25,19 +25,28 @@ export default function App() {
     };
   }, []);
 
+  // useEffect(() => {
+  //   const handleWidth = () => {
+  //     if (window.innerWidth <= 1200) {
+  //       setIsSmall(true);
+  //     } else {
+  //       setIsSmall(false);
+  //     }
+  //   };
+  //   window.addEventListener("resize", handleWidth);
+  //   return () => {
+  //     window.removeEventListener("resize", handleWidth);
+  //   };
+  // }, []);
+
+
   useEffect(() => {
-    const handleWidth = () => {
-      if (window.innerWidth <= 1200) {
-        setIsSmall(true);
-      } else {
-        setIsSmall(false);
-      }
-    };
-    window.addEventListener("resize", handleWidth);
-    return () => {
-      window.removeEventListener("resize", handleWidth);
-    };
-  }, []);
+    if (window.innerWidth <= 1200) {
+      setIsSmall(true);
+    } else {
+      setIsSmall(false);
+    }
+  }, []);  
 
   const scrollToTop = () => {
     document.documentElement.scrollTo({
