@@ -16,27 +16,6 @@ export default function Projects() {
               <img
                 className="project-img"
                 src={`${process.env.PUBLIC_URL}/project1.png`}
-                alt="Cleaning service web application"
-              />
-              <a
-                className="visiteProject"
-                href="https://github.com/LaszloF5/cleaning-web-app"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Code in Github:
-                <img
-                  className="right-arrow"
-                  src={`${process.env.PUBLIC_URL}/right-arrow.png`}
-                  alt="right arrow"
-                />
-              </a>
-            </li>
-            <li className="project-list-li">
-              <span className='project-span'>Project 2</span>
-              <img
-                className="project-img"
-                src={`${process.env.PUBLIC_URL}/project2.png`}
                 alt="Weather forecast web application"
               />
               <a
@@ -67,10 +46,10 @@ export default function Projects() {
               </a>
             </li>
             <li className="project-list-li">
-              <span className='project-span'>Project 3</span>
+              <span className='project-span'>Project 2</span>
               <img
                 className="project-img"
-                src={`${process.env.PUBLIC_URL}/project3.png`}
+                src={`${process.env.PUBLIC_URL}/project2.png`}
                 alt="Advent calendar web application"
               />
               <a
@@ -101,10 +80,10 @@ export default function Projects() {
               </a>
             </li>
             <li className="project-list-li">
-              <span className='project-span'>Project 4</span>
+              <span className='project-span'>Project 3</span>
               <img
                 className="project-img"
-                src={`${process.env.PUBLIC_URL}/project4.png`}
+                src={`${process.env.PUBLIC_URL}/project3.png`}
                 alt="Kitchen system web application"
               />
               <a
@@ -114,6 +93,53 @@ export default function Projects() {
                 rel="noopener noreferrer"
               >
                 Code in Github:
+                <img
+                  className="right-arrow"
+                  src={`${process.env.PUBLIC_URL}/right-arrow.png`}
+                  alt="right arrow"
+                />
+              </a>
+              <a
+                className="visiteProject"
+                href="https://laszlof5.github.io/kitchen-system/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Visite this site:
+                <img
+                  className="right-arrow"
+                  src={`${process.env.PUBLIC_URL}/right-arrow.png`}
+                  alt="right arrow"
+                />
+              </a>
+            </li>
+            <li className="project-list-li">
+              <span className='project-span'>Project 4</span>
+              <img
+                className="project-img"
+                src={`${process.env.PUBLIC_URL}/project4.png`}
+                alt="Cleaning service web application"
+              />
+              <a
+                className="visiteProject"
+                href="https://github.com/LaszloF5/bookstore"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Code in Github:
+                <img
+                  className="right-arrow"
+                  src={`${process.env.PUBLIC_URL}/right-arrow.png`}
+                  alt="right arrow"
+                />
+              </a>
+              <a
+                className="visiteProject"
+                href="https://laszlof5.github.io/bookstore/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Visite this site:
                 <img
                   className="right-arrow"
                   src={`${process.env.PUBLIC_URL}/right-arrow.png`}
