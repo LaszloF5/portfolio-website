@@ -20,7 +20,7 @@ export default function Projects() {
               />
               <a
                 className="visiteProject"
-                href="https://github.com/LaszloF5/weather-app"
+                href="https://github.com/LaszloF5/weather-webapp"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -33,7 +33,7 @@ export default function Projects() {
               </a>
               <a
                 className="visiteProject"
-                href="https://laszlof5.github.io/weather-app/"
+                href="https://laszlof5.github.io/weather-webapp/"
                 target="_blank"
                 rel="noopener noreferrer"
               >

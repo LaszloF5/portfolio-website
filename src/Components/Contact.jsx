@@ -36,8 +36,24 @@ export default function Contact() {
               https://github.com/LaszloF5
             </a>
           </section>
+          <section className="contact-info">
+            <h3>LinkedIn:</h3>
+            <a
+              className="linkedin-a"
+              href="https://www.linkedin.com/in/laszlo-fazekas-b30989354"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                className="contact-icon"
+                src={process.env.PUBLIC_URL + "/linkedin-icon.png"}
+                alt="linkedin icon"
+              />
+              https://www.linkedin.com/in/laszlo-fazekas-b30989354
+            </a>
+          </section>
           <footer className="footer">
-            <span>© 2024 Laszlo Fazekas All rights reserved.</span>
+            <span>© 2025 Laszlo Fazekas All rights reserved.</span>
           </footer>
         </div>
       </div>

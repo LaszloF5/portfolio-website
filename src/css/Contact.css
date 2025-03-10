@@ -80,10 +80,11 @@
     padding-right: 10px;
   }
 
-  .github-a {
+  .github-a, .linkedin-a {
     color: whitesmoke;
     display: flex;
     margin: 5px;
+    text-decoration: none;
   }
 
   .footer {

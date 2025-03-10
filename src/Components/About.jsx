@@ -2,7 +2,7 @@ import React from "react";
 import "../css/About.css";
 
 export default function About() {
-  const age = 27;
+  const age = 28;
   const email = "fazekaslaszlo31@gmail.com";
   const language = "Hungarian, English";
 
@@ -45,6 +45,14 @@ export default function About() {
               alt="React"
             />
             <p>React</p>
+          </div>
+          <div className="img-container">
+            <img
+              className="skill-icon js"
+              src={process.env.PUBLIC_URL + "/typescript.png"}
+              alt="JavaScript"
+            />
+            <p>Typescript</p>
           </div>
         </section>
         <section className="info-container">
