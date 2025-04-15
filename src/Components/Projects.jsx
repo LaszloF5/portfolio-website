@@ -147,6 +147,40 @@ export default function Projects() {
                 />
               </a>
             </li>
+            <li className="project-list-li">
+              <span className='project-span'>Project 5</span>
+              <img
+                className="project-img"
+                src={`${process.env.PUBLIC_URL}/project5.png`}
+                alt="Cleaning service web application"
+              />
+              <a
+                className="visiteProject"
+                href="https://github.com/LaszloF5/sql-game"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Code in Github:
+                <img
+                  className="right-arrow"
+                  src={`${process.env.PUBLIC_URL}/right-arrow.png`}
+                  alt="right arrow"
+                />
+              </a>
+              <a
+                className="visiteProject"
+                href="https://laszlof5.github.io/sql-game/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Visite this site:
+                <img
+                  className="right-arrow"
+                  src={`${process.env.PUBLIC_URL}/right-arrow.png`}
+                  alt="right arrow"
+                />
+              </a>
+            </li>
           </ul>
         </section>
       </div>

@@ -51,7 +51,7 @@ export default function About() {
               className="skill-icon js"
               src={process.env.PUBLIC_URL + "/typescript.png"}
               alt="JavaScript"
-            />
+            /> 
             <p>Typescript</p>
           </div>
         </section>
